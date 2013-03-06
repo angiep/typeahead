@@ -1,14 +1,14 @@
-## Type Ahead ##
+# Type Ahead #
 
-### Required Files ###
+## Required Files ##
 * utilities.js
 * typeahead.js
 * typeahead.css
 
 
-### Setup ###
+## Setup ##
 
-#### HTML Structure ####
+### HTML Structure ###
 ```html
 <div class="type-ahead">
     <input id="test" type="text" />
@@ -17,7 +17,7 @@
 
 Don't forget to include the css file! You can make modifications to the css as you see fit.
 
-#### Initializing ####
+### Initializing ###
 The typeahead widget can take either a list of strings to search through or take a source URL that returns a JSON response according to the current query.
 
 Here is a setup example with just a simple list:
@@ -38,7 +38,7 @@ var ta = new TypeAhead(input, {
 });
 ```
 
-### Options ###
+## Options ##
 * list: an array of strings to check user input against, an alternative to making AJAX requests
 * activeClass: the class to be added to a list item when it is selected (through arrows, hovering or clicking), default is 'highlight'
 * source: source URL to check user input against, should return a JSON array
