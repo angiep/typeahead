@@ -13,7 +13,7 @@ JavaScript Widgets
 
 ### HTML Structure ###
 ```html
-<div class="typeAhead">
+<div class="type-ahead">
     <input id="test" type="text" />
 </div>
 ```
