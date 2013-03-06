@@ -1,15 +1,26 @@
 JavaScript Widgets
 =======
 
-# Type Ahead
+# Type Ahead #
 
-## Required Files
+## Required Files ##
 * utilities.js
 * typeahead.js
 * typeahead.css
 
 
-## Setup
+## Setup ##
+
+### HTML Structure ###
+```html
+<div class="typeAhead">
+    <input id="test" type="text" />
+</div>
+```
+
+Don't forget to include the css file! You can make modifications to the css as you see fit.
+
+### Initializing ###
 The typeahead widget can take either a list of strings to search through or take a source URL that returns a JSON response according to the current query.
 
 Here is a setup example with just a simple list:
