@@ -13,22 +13,22 @@ JavaScript Widgets
 The typeahead widget can take either a list of strings to search through or take a source URL that returns a JSON response according to the current query.
 
 Here is a setup example with just a simple list:
-'''javascript
-    var input = document.getElementById("test");
-    var ta = new TypeAhead(input, {list: ["cat", "dog", "cow", "cattle"]});
-'''
+```javascript
+var input = document.getElementById("test");
+var ta = new TypeAhead(input, {list: ["cat", "dog", "cow", "cattle"]});
+```
 
 And a little bit more complicated setup with a source URL:
-'''javascript
-    var input = document.getElementById("test");
-    var ta = new TypeAhead(input, {
-        source: '/api/example', 
-        property: 'name',
-        onSelect: function(item, data) {
-            console.log(item);
-        }
-    });
-'''
+```javascript
+var input = document.getElementById("test");
+var ta = new TypeAhead(input, {
+    source: '/api/example', 
+    property: 'name',
+    onSelect: function(item, data) {
+        console.log(item);
+    }
+});
+```
 
 ## Options
 * list: an array of strings to check user input against, an alternative to making AJAX requests
