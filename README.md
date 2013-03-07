@@ -10,8 +10,8 @@
 
 ### HTML Structure ###
 ```html
-<div class="type-ahead">
-    <input id="test" type="text" />
+<div class='type-ahead'>
+    <input id='test' type='text' />
 </div>
 ```
 
@@ -22,13 +22,13 @@ The typeahead widget can take either a list of strings to search through or take
 
 Here is a setup example with just a simple list:
 ```javascript
-var input = document.getElementById("test");
-var ta = new TypeAhead(input, {list: ["cat", "dog", "cow", "cattle"]});
+var input = document.getElementById('test');
+var ta = new TypeAhead(input, {list: ['cat', 'dog', 'cow', 'cattle']});
 ```
 
 And a little bit more complicated setup with a source URL:
 ```javascript
-var input = document.getElementById("test");
+var input = document.getElementById('test');
 var ta = new TypeAhead(input, {
     source: '/api/example', 
     property: 'name',
