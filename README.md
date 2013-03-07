@@ -38,6 +38,8 @@ var ta = new TypeAhead(input, {
 });
 ```
 
+When a request is made to the source URL the query parameter 'query' is appended to the end of the URL with it's value being the current search term. Example: api/example?query=museum.
+
 ## Options ##
 * list: an array of strings to check user input against, an alternative to making AJAX requests
 * activeClass: the class to be added to a list item when it is selected (through arrows, hovering or clicking), default is 'highlight'
