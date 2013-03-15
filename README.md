@@ -47,5 +47,3 @@ When a request is made to the source URL the query parameter 'query' is appended
 * property: if source is returning objects rather than strings, the property name that should be displayed within the list
 * onSelect: a callback function to be called when the user clicks or hits enter on an item, the onSelect method is passed the DOM element and the data object corresponding to the item
 * onHover: a callback function to be called when the user hovers over an item, the onHover method is passed the DOM element and the data object corresponding to the item
-
-# Carousel
