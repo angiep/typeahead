@@ -1,5 +1,9 @@
 # Type Ahead #
 
+A typeahead (or autocomplete) JavaScript widget with no framework dependencies.  The widget displays a list of matching keywords underneath the input field when the user begins typing into the field. 
+
+The widget allows the developer to pass in either a list of keywords or a URL that provides a JSON response with the keywords that are then filtered by the user input.
+
 ## Required Files ##
 * utilities.js
 * typeahead.js
